@@ -1,7 +1,7 @@
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/project6.git
-   cd project6
+   git clone https://github.com/ssYtAuRdIeKnt/project-8-UX-UI.git
+   cd project-8-UX-UI
    ```
 
 2. Install dependencies:
