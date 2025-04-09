@@ -1,0 +1,13 @@
+I used "display: grid;" in order to make a grid element.
+
+Than I used "grid-template-columns: 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;"
+	and "grid-template-rows: 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;"
+	in order to make a template of quantity and wight of columns and rows.
+	In task we have grid 7x7, so I made 7 equal columns and rows.
+
+This   "grid-column: 1 / 2;
+	grid-row: 1 / 4;"
+	means that our block is lying between 1st and 2nd column lines,
+	so it takes only first column
+	and it is lying between 1st and 4th row lines,
+	so it takes first three rows
