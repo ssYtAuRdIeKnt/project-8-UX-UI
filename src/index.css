@@ -7,3 +7,28 @@ body {
   line-height: 1.6;
   background-color: #fff;
 }
+
+@keyframes brownGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.logo-brown-anim {
+  background: linear-gradient(270deg, #6a4133, #4E342E, #8B5E3C);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brownGradient 3s ease infinite;
+  transition: transform 0.3s ease;
+}
+
+.logo-brown-anim:hover {
+  transform: scale(1.05);
+}

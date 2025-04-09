@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed bg-white border-b border-[#aaaaaa] px-4 md:px-12 z-50">
       <div className="h-16 flex items-center justify-between">
-        <div className="text-2xl text-[#6a4133] font-bold">GymCycles</div>
+        <div className="text-2xl font-bold logo-brown-anim">GymCycles</div>
 
         <div className="flex items-center gap-6">
           <div className="hidden md:flex items-center border border-[#4E342E] px-3 py-1.5 rounded-md w-64">

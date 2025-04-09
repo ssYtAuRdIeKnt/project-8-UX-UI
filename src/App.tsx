@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 import ProgramList from "./components/ProgramList";
 import Sidebar from "./components/Sidebar";
 import Author from "./components/Author";
+import Organization from "./components/Organization";
+import Newcomers from "./components/Newcomers";
+import Nutrition from "./components/Nutrition";
 
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -20,6 +23,9 @@ const App = () => {
             <Routes>
               <Route path="/" element={<ProgramList />} />
               <Route path="/author" element={<Author />} />
+              <Route path="/organization" element={<Organization />} />
+              <Route path="/newcomers" element={<Newcomers />} />
+              <Route path="/nutrition" element={<Nutrition />} />
             </Routes>
           </div>
         </div>
